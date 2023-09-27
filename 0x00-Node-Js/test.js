@@ -4,3 +4,5 @@ console.log(() => console.log('Shhh, Im anonymous'));
 const helloWorld = (name) => {
     console.log(`Welcome ${name} to Codecademy, this is an arrow expression.`)
   };
+  // Calling the helloWorld() function.
+helloWorld('Codey'); //Output: Welcome Codey to Codecademy, this is an Arrow Function Expression.
